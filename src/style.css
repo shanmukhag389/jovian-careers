@@ -1,0 +1,124 @@
+body {
+    padding: 20px;
+    background-color: rgb(255, 250, 241);
+    font-family: 'Roboto',Helvetica;
+}
+
+#logo{
+    display: flex;
+
+}
+
+#band {
+    font-size: 22px;
+    background-color: cadetblue;
+    height:30px;
+    margin-top: 0;
+   
+}
+
+#banner {
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+}
+#about{
+    display:flex;
+    max-width: 700px;
+    margin: auto;
+}
+#description{
+    width:50%;
+    padding: 8px;
+    background-color:aliceblue;
+    margin: 0px 8px;
+    border-radius: 8px;
+    text-align: justify;
+}
+#team_image{
+    width : 100%;
+    border-radius: 8px;
+}
+
+.jobs{
+    margin:auto;
+    max-width: 700px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+.footer{
+    background-color:honeydew;
+    margin-top: 30px;
+    text-align: center;
+}
+.footer-links{
+    list-style: none;
+    text-align: center;
+}
+.footer-links li{
+    display: inline;
+    padding: 32px;
+}
+
+.table{
+    width: 100%;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.table-head th{
+    border: 1px solid;
+    padding: 8px;
+    background-color:lightcyan;
+    text-align: left;
+}
+
+.table-data td{
+    border-right:1px solid;
+    padding: 8px;
+}
+.table tr:nth-child(even){
+    background-color: aliceblue;
+}
+.table tr:nth-child(odd){
+    background-color: white;
+}
+
+#options label{
+    border-radius: 3px;
+    
+
+}
+#options input,select{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1 solid gray;
+}
+#options{
+    margin: 4px 0;
+}
+#options textarea{
+    width:60%;
+    border-radius: 5px;
+    font-family: Roboto;
+}
+
+#options input[type="submit"]{
+    background-color: blue;
+    color:white;
+    margin-top: 8px;
+    
+}
